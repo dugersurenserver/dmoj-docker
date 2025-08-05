@@ -18,7 +18,7 @@ HOST = os.environ.get('HOST', '*')
 
 # Uncomment and set to the domain names this site is intended to serve.
 # You must do this once you set DEBUG to False.
-ALLOWED_HOSTS = [HOST]
+ALLOWED_HOSTS = ['*']
 
 # Optional apps that DMOJ can make use of.
 INSTALLED_APPS += ()
